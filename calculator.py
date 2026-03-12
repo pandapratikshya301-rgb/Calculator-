@@ -1,5 +1,5 @@
 def calculator():
-    print("--- Simple CLI Calculator ---")
+    print("<--- Simple CLI Calculator --->")
     print("Select operation: +, -, *, /")
 
     operation = input("Enter operation: ")
@@ -35,4 +35,5 @@ def calculator():
         print("Invalid input. Please enter numeric values.")
 
 if __name__ == "__main__":
+
     calculator()
